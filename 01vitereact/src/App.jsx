@@ -1,7 +1,11 @@
+import Coffee from "./coffee"
 
 function App() {
   return (
-    <h1>Hello Vite + React</h1>
+    <>
+      <Coffee />
+      <h1>Hello React</h1>
+    </>
   )
 }
 
