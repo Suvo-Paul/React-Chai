@@ -1,10 +1,13 @@
 import Coffee from "./coffee"
 
 function App() {
+
+  const username = "Suvo Paul"
+
   return (
     <>
       <Coffee />
-      <h1>Hello React</h1>
+      <h1>Hello React {username}</h1>
     </>
   )
 }
