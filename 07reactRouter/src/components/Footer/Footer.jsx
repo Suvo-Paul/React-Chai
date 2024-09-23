@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Link to="/" className="flex items-center">
+                        <Link style={{ textDecoration: "none" }} to="/" className="flex items-center">
                             <img
                                 src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                                 className="mr-3 h-16"
@@ -20,12 +20,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link style={{ textDecoration: "none" }} to="/" className="hover:underline">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
+                                    <Link style={{ textDecoration: "none" }} to="/about" className="hover:underline">
                                         About
                                     </Link>
                                 </li>
@@ -36,18 +36,19 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        style={{ textDecoration: "none" }}
+                                        href="https://www.facebook.com/suvo.paul.3348"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        Github
+                                        Facebook
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
-                                    </Link>
+                                    <a href='https://www.instagram.com/im.suvoo/?hl=en' target='_blank' style={{ textDecoration: "none" }} to="/" className="hover:underline">
+                                        Instagram
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -55,12 +56,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
+                                    <Link style={{ textDecoration: "none" }} to="#" className="hover:underline">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline">
+                                    <Link style={{ textDecoration: "none" }} to="#" className="hover:underline">
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
@@ -78,7 +79,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <Link to="#" className="text-gray-500 hover:text-gray-900">
+                        <Link style={{ textDecoration: "none" }} to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -94,7 +95,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link style={{ textDecoration: "none" }} to="#" className="text-gray-500">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -106,7 +107,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link style={{ textDecoration: "none" }} to="#" className="text-gray-500">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -122,7 +123,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link style={{ textDecoration: "none" }} to="#" className="text-gray-500">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -138,7 +139,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link style={{ textDecoration: "none" }} to="#" className="text-gray-500">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
