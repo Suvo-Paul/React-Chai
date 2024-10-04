@@ -1,11 +1,11 @@
 import React, { useId } from 'react'
 
-const Select = ({
+function Select({
     options,
     label,
     className = "",
     ...props
-}, ref) => {
+}, ref) {
 
     const id = useId()
 
